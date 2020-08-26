@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "class-transformer": "^0.3.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}

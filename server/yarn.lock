@@ -28,6 +28,11 @@
   resolved "http://registry.eazytec.com/repository/npm-eazytec/@types/node/-/node-14.6.0.tgz#7d4411bf5157339337d7cff864d9ff45f177b499"
   integrity sha1-fUQRv1FXM5M318/4ZNn/RfF3tJk=
 
+"@types/validator@13.0.0":
+  version "13.0.0"
+  resolved "http://registry.eazytec.com/repository/npm-eazytec/@types/validator/-/validator-13.0.0.tgz#365f1bf936aeaddd0856fc41aa1d6f82d88ee5b3"
+  integrity sha1-Nl8b+Taurd0IVvxBqh1vgtiO5bM=
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "http://registry.eazytec.com/repository/npm-eazytec/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -68,6 +73,16 @@ chalk@^2.0.0, chalk@^2.3.0:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
+
+class-validator@^0.12.2:
+  version "0.12.2"
+  resolved "http://registry.eazytec.com/repository/npm-eazytec/class-validator/-/class-validator-0.12.2.tgz#2ceb72f88873e9c714cf5f9c278cbc71f6f6c8ef"
+  integrity sha1-LOty+Ihz6ccUz1+cJ4y8cfb2yO8=
+  dependencies:
+    "@types/validator" "13.0.0"
+    google-libphonenumber "^3.2.8"
+    tslib ">=1.9.0"
+    validator "13.0.0"
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -122,6 +137,11 @@ glob@^7.1.1:
     minimatch "^3.0.4"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+google-libphonenumber@^3.2.8:
+  version "3.2.12"
+  resolved "http://registry.eazytec.com/repository/npm-eazytec/google-libphonenumber/-/google-libphonenumber-3.2.12.tgz#6190bbf15482fd75ca06ac887ad0333fa3361751"
+  integrity sha1-YZC78VSC/XXKBqyIetAzP6M2F1E=
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -214,6 +234,11 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
+tslib@>=1.9.0:
+  version "2.0.1"
+  resolved "http://registry.eazytec.com/repository/npm-eazytec/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
+  integrity sha1-QQ6w0RPltjVkkO7HSWA3JbAhtD4=
+
 tslib@^1.13.0, tslib@^1.8.1:
   version "1.13.0"
   resolved "http://registry.eazytec.com/repository/npm-eazytec/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
@@ -249,6 +274,11 @@ typescript@^4.0.2:
   version "4.0.2"
   resolved "http://registry.eazytec.com/repository/npm-eazytec/typescript/-/typescript-4.0.2.tgz#7ea7c88777c723c681e33bf7988be5d008d05ac2"
   integrity sha1-fqfIh3fHI8aB4zv3mIvl0AjQWsI=
+
+validator@13.0.0:
+  version "13.0.0"
+  resolved "http://registry.eazytec.com/repository/npm-eazytec/validator/-/validator-13.0.0.tgz#0fb6c6bb5218ea23d368a8347e6d0f5a70e3bcab"
+  integrity sha1-D7bGu1IY6iPTaKg0fm0PWnDjvKs=
 
 wrappy@1:
   version "1.0.2"

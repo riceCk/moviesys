@@ -10,3 +10,4 @@
 1.服务器端
 使用postman
 2.客户端
+> tslint: 跟eslint相似，是用于检查代码风格
