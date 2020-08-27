@@ -1,7 +1,8 @@
-import { IsNotEmpty, ArrayMinSize, IsInt, Min, Max } from 'class-validator';
-import { Type } from 'class-transformer'
+import { IsNotEmpty, ArrayMinSize, IsInt, Min, Max, validate } from 'class-validator';
+import { Type, plainToClass } from 'class-transformer'
+import { BaseEntity } from '../services/BaseEntity';
 
-export class Movie {
+export class Movie extends BaseEntity {
   @IsNotEmpty({message: '电影名称不可以为空'})
   @Type(() => String)
   public name: string;
@@ -41,4 +42,12 @@ export class Movie {
   // 海报图
   @Type(() => String)
   public poster?: string
+
+  /**
+   * 将一个平面对象转换为movie类的对象
+   * @param plainObject 平面对象或者moview对象
+   */
+  public static transform(plainObject: object): Movie {
+    return super.baseTransform(Movie, plainObject )
+  }
 }
