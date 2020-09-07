@@ -22,7 +22,7 @@ export class SearchCondition extends BaseEntity {
    */
   @Type(()=>String)
   public key: string = '';
-  
+
   public static transform(plainObject: object): SearchCondition {
     return super.baseTransform(SearchCondition, plainObject);
   }
